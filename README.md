@@ -1,6 +1,9 @@
-# Machine-learning---SGA-Prediction
+# Machine Learning Prediction of Small-for-Gestational-Age Births: A Model Robustness Assessment
+
+This repository contains the datasets, R source code, and automation bash scripts used in this research. The study establishes a robust machine learning framework to evaluate feature stability and model generalisability for small-for-gestational-age (SGA) screening using routine second-trimester ultrasound biometry. 
+
 ## 📁 Repository Structure & Files 
-This repository is organized into three main components: 
+This repository is organised into three main components: 
 
 - **Data**
   - Contains the primary Malaysian cohort dataset used for development and internal modeling. 
@@ -9,7 +12,7 @@ This repository is organized into three main components:
 - **Source Code**
   - `phase1_data_preparation.R`: Handles data preprocessing and preparation. 
   - `phases_2_3_5_6_analysis.R`: Executes the core statistical modeling, clearly split by data scope: 
-    - **Phases 2 & 3:** Implements a 30-run repeated random subsampling framework on the Malaysian data to evaluate baseline logistic regression feature stability and optimize thresholds. 
+    - **Phases 2 & 3:** Implements a 30-run repeated random subsampling framework on the Malaysian data to evaluate baseline logistic regression feature stability and optimise thresholds. 
     - **Phases 5 & 6 (Full Cohort Validation):** Trains a final model on the *entire* primary Malaysian cohort (rebalanced via SMOTE) and evaluates its performance against the *entire* independent Singaporean validation dataset, followed by systematic feature ablation studies. 
 
 - **Scripts/ (Linux Bash Automation)**
