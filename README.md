@@ -1,4 +1,4 @@
-# Machine Learning Prediction of Small-for-Gestational-Age Births: A Model Robustness Assessment
+# Machine learning prediction of small-for-gestational-age births: A model robustness assessment
 
 This repository contains the datasets, R source code, and automation bash scripts used in this research. The study establishes a robust machine learning framework to evaluate feature stability and model generalisability for small-for-gestational-age (SGA) screening using routine second-trimester ultrasound biometry. 
 
